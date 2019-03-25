@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9bfcea47-e6e5-4ac0-a483-e68841a0277c" name="U-pem" url="">
+        <fileTransfer host="etudiant.u-pem.fr" port="21" rootFolder="/mnt/traban_home/5we01/kserka/WWW/html/camping">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

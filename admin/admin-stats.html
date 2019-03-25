@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Camping Paradis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="../js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="colorlib-loader"></div>
+
+<div id="page">
+    <nav class="colorlib-nav" role="navigation">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <p class="site">www.campingparadis.com</p>
+                    </div>
+                    <div class="text-right">
+                        <p>Tél: 04 12 34 56 78</p>
+                        <ul class="colorlib-social">
+                            <li><a href="https://twitter.com/twitterfrance"><i class="icon-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/francoishollande.fr/"><i class="icon-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/carlos-ghosn-05a16090"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="http://dribblr.fr/"><i class="icon-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <div id="colorlib-logo"><a href="../index.html"><img src = "../images/Camping_Paradis.png" height = "70%" width = "70%"/></a></div>
+                    </div>
+                    <div class="col-xs-10 text-right menu-1">
+                        <ul>
+                            <li><a href="../index.html">Accueil</a></li>
+                            <li><a href="../rooms-suites.html">Locations</a></li>
+                            <li><a href="../contact.html">Contact</a></li>
+                            <li><a href="../login.html">Connexion</a></li>
+                            <li><a href="../logout.html">Déconnexion</a></li>
+                            <li><a href="../register.html">Inscription</a></li>
+                            <li><a href="../account.html">Mon compte</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">Administration</a>
+                                <ul class="dropdown">
+                                    <li><a href="admin_login.html">Connexion</a></li>
+                                    <li><a href="admin_locations.html">Emplacements</a></li>
+                                    <li><a href="admin_location_edit.html">Modification d'emplacement</a></li>
+                                    <li><a href="admin-bookings.html">Réservations</a></li>
+                                    <li><a href="admin-stats.html">Statistiques</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <aside id="colorlib-hero">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background-image: url(../images/img_bg_5.jpg);">
+                    <div class="overlay"></div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+                                <div class="slider-text-inner slider-text-inner2 text-center">
+                                    <h2>Back office</h2>
+                                    <h1>Statistiques</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <div id="colorlib-contact">
+        <div class="container">
+
+            <h2>Origine de nos clients</h2>
+
+            <canvas id="doughnut-chart" width="800" height="450"></canvas>
+
+
+        </div>
+    </div>
+
+    <footer id="colorlib-footer" role="contentinfo">
+        <div class="container">
+            <div class="row row-pb-md">
+                <div class="col-md-3 colorlib-widget">
+                    <h4><a href="../about.html" class= "white-link">A propos de nous</a></h4>
+                </div>
+                <div class="col-md-3 colorlib-widget">
+                    <h4><a href="../legal_notice.html" class= "white-link">Mentions légales</a></h4>
+                </div>
+                <div class="col-md-3 colorlib-widget">
+                    <h4><a href="files/source.zip" class= "white-link" download>Code source du site</a></h4>
+                </div>
+                <div class="col-md-3 colorlib-widget">
+                    <h4><a href="../files/maquette-kamel-serka.pptx" class= "white-link" download="">Maquette initiale du site</a></h4>
+                </div>
+            </div> <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        <small class="block">
+                            Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+
+                        </script> Camping Paradis tous droits réservés
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="../js/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="../js/jquery.flexslider-min.js"></script>
+<!-- Owl carousel -->
+<script src="../js/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/magnific-popup-options.js"></script>
+<!-- Date Picker -->
+<script src="../js/bootstrap-datepicker.js"></script>
+
+<!-- Main -->
+<script src="../js/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+<script>
+
+    new Chart(document.getElementById("doughnut-chart"), {
+        type: 'doughnut',
+        data: {
+            labels: ["France", "Allemagne", "Italie", "Grande Bretagne", "Espagne"],
+            datasets: [
+                {
+                    label: "Population (millions)",
+                    backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+                    data: [50,20,10,10,10]
+                }
+            ]
+        },
+        options: {
+            title: {
+                display: true,
+                text: 'Statistiques exprimées en pourcentages'
+            }
+        }
+    });
+
+</script>
+
+<script>
+
+    //- PIE CHART -
+    //-------------
+    // Get context with jQuery - using jQuery's .get() method.
+    var pieChartCanvas = $('#pieChart').get(0).getContext('2d')
+    var pieChart       = new Chart(pieChartCanvas)
+    var PieData        = [
+        {
+            name     : 'France',
+            value    : 700,
+            color    : '#f56954',
+            highlight: '#f56954',
+            label    : 'Chrome'
+        },
+        {
+            value    : 500,
+            color    : '#00a65a',
+            highlight: '#00a65a',
+            label    : 'IE'
+        },
+        {
+            value    : 400,
+            color    : '#f39c12',
+            highlight: '#f39c12',
+            label    : 'FireFox'
+        },
+        {
+            value    : 600,
+            color    : '#00c0ef',
+            highlight: '#00c0ef',
+            label    : 'Safari'
+        },
+        {
+            value    : 300,
+            color    : '#3c8dbc',
+            highlight: '#3c8dbc',
+            label    : 'Opera'
+        },
+        {
+            value    : 100,
+            color    : '#d2d6de',
+            highlight: '#d2d6de',
+            label    : 'Navigator'
+        },
+
+    ]
+    var pieOptions     = {
+        //Boolean - Whether we should show a stroke on each segment
+        segmentShowStroke    : true,
+        //String - The colour of each segment stroke
+        segmentStrokeColor   : '#fff',
+        //Number - The width of each segment stroke
+        segmentStrokeWidth   : 2,
+        //Number - The percentage of the chart that we cut out of the middle
+        percentageInnerCutout: 50, // This is 0 for Pie charts
+        //Number - Amount of animation steps
+        animationSteps       : 100,
+        //String - Animation easing effect
+        animationEasing      : 'easeOutBounce',
+        //Boolean - Whether we animate the rotation of the Doughnut
+        animateRotate        : true,
+        //Boolean - Whether we animate scaling the Doughnut from the centre
+        animateScale         : false,
+        //Boolean - whether to make the chart responsive to window resizing
+        responsive           : true,
+        // Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
+        maintainAspectRatio  : true,
+        //String - A legend template
+        legendTemplate       : '<ul class="<%=name.toLowerCase()%>-legend"><% for (var i=0; i<segments.length; i++){%><li><span style="background-color:<%=segments[i].fillColor%>"></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul>'
+    }
+    //Create pie or douhnut chart
+    // You can switch between pie and douhnut using the method below.
+    pieChart.Doughnut(PieData, pieOptions)
+
+
+</script>
+
+
+
+</body>
+
+</html>
